@@ -1,0 +1,353 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END OF CSS RESET */
+
+
+
+body {
+    background-color: rgb(0, 91, 78);
+    font: 16px / 28px verdana, sans-serif;;
+}
+
+.header {
+    max-width: 1150px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    color: rgb(0, 91, 78);
+}
+
+.header h1 {
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px;
+}
+
+.header h3 {
+    padding: 15px;
+    text-align: center;
+}
+
+.header a:hover {
+    background-color: gold;
+}
+
+.navbar, ul, li {
+    display: inline;
+    float: right;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 8px;
+    color: rgb(0, 91, 78);
+}
+
+.navbar a:hover {
+    background-color: gold;
+    color: white;
+}
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow {
+  max-width: 1150px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides a {
+  text-decoration: none;
+  color: gold;
+  background-color: rgb(0, 91, 78);
+  padding: 15px;
+  border-radius: 25px;  
+}
+
+.mySlides a:hover {
+  background-color: gold;
+  color: rgb(0, 91, 78);
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 33px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+/* END OF NAVBAR */
+
+
+
+.content {
+    max-width: 1150px;
+    background-color: white;
+    margin : -36px auto;
+    padding: 35px;
+    color: rgb(0, 91, 78);;
+}
+
+.slogan {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 50px;
+  color: rgb(0, 91, 78);
+}
+
+.main {
+  max-width: 600px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.identity {
+  background-color: gold;
+  width: 300px;
+}
+
+.main img {
+  width: 75px;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-top: -15px;
+  float: left;
+}
+
+.nama {
+  font-size: 18px;
+}
+
+.job {
+  margin-top: -5px;
+  font-style: italic;
+  font-size: 13px;
+  margin-bottom: 50px;
+}
+
+.judul {
+  font-weight: bold;
+}
+
+.paragraf {
+  text-align: justify;
+}
+
+.sidebar {
+  background-color: rgb(0, 91, 78);
+  padding: 10px;
+  border-radius: 25%;
+  float: right;
+  width: 400px;
+  padding: 50px;
+  color: white;
+}
+
+.sidebar h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.sidebar p {
+  color: white;
+  font-size: 13px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.sidebar label {
+  font-size: 13px;
+}
+
+.sidebar input {
+  margin-bottom: 20px;
+  width: 300px;
+  padding: 7px;
+  border-radius: 5%;
+}
+
+.select {
+  display: grid;
+  grid-template-areas: "select";
+  width: 300px;
+  padding: 7px;
+}
+
+.sidebar button {
+  padding: 7px;
+  width: 300px;
+  background-color: gold;
+}
+
+.footer {
+  max-width: 1150px;
+  background-color: gold;
+  margin : -36px auto;
+  padding: 25px;
+  color: white;
+}
+
+.footer p {
+  color: rgb(0, 91, 78);
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+     zoom : 1;
+ }
