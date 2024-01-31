@@ -76,13 +76,13 @@
             <p>If you are interested in our offer,
                 please fill out the form below and our sales
                 will contact you shortly.</p>
-            <form action="">
+            <form name="contactUs" onsubmit="return BLEEDINGROSES();" method="post">
                 <label for="name">Your Name:</label><br>
-                <input type="text" id="name" required><br>
-                <label for="email">Email Adress:</label><br>
-                <input type="text" id="email" required><br>
-                <label for="interest">What are you interested in?</label><br>
-                <select id="interest" class="select" required>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email Address:</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="product">What are you interested in?</label><br>
+                <select id="product" class="select" name="product">
                     <option value="">Choose...</option>
                     <option value="vegetables">Vegetables</option>
                     <option value="fruits">Fine's Fruits</option>
