@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="header">
+    <div class="header cf">
         <a href="#"><img src="img/logo.png" width="250px"></a>
         <div class="navbar">
             <ul>
@@ -20,7 +20,7 @@
         <h1>Fine's Food Haven</h1>
         <h3>Harvested with Care, Packed with Freshness!</h3>
     </div>
-    <div class="slideshow">
+    <div class="slideshow cf">
 
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
@@ -40,10 +40,6 @@
             <img src="img/banner3.png" style="width:100%">
             <div class="text"><a href="#">ORDER NOW</a></div>
         </div>
-      
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
     <br>  
     <div class="content cf">
@@ -82,11 +78,11 @@
                 will contact you shortly.</p>
             <form action="">
                 <label for="name">Your Name:</label><br>
-                <input type="text" id="name"><br>
+                <input type="text" id="name" required><br>
                 <label for="email">Email Adress:</label><br>
-                <input type="text" id="email"><br>
+                <input type="text" id="email" required><br>
                 <label for="interest">What are you interested in?</label><br>
-                <select id="interest" class="select">
+                <select id="interest" class="select" required>
                     <option value="">Choose...</option>
                     <option value="vegetables">Vegetables</option>
                     <option value="fruits">Fine's Fruits</option>
@@ -96,7 +92,7 @@
             </form>
         </div>
     </div>
-    <div class="footer">
+    <div class="footer cf">
         <p>All Right Reserved © Redo Almy for Mini Project SEFC</p>
     </div>
     <script src="js/script.js"></script>
