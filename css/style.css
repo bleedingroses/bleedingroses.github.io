@@ -53,7 +53,7 @@ table {
 
 body {
     background-color: rgb(0, 91, 78);
-    font: 16px / 28px verdana, sans-serif;;
+    font: 16px / 28px verdana, sans-serif;
 }
 
 .header {
@@ -176,22 +176,6 @@ body {
   top: 0;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
 /* Fading animation */
 .fade {
   animation-name: fade;
@@ -214,7 +198,7 @@ body {
     background-color: white;
     margin : -36px auto;
     padding: 35px;
-    color: rgb(0, 91, 78);;
+    color: rgb(0, 91, 78);
 }
 
 .slogan {
@@ -265,7 +249,7 @@ body {
 .sidebar {
   background-color: rgb(0, 91, 78);
   padding: 10px;
-  border-radius: 25%;
+  border-radius: 5%;
   float: right;
   width: 400px;
   padding: 50px;
@@ -312,7 +296,9 @@ body {
 .footer {
   max-width: 1150px;
   background-color: gold;
-  margin : -36px auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
   padding: 25px;
   color: white;
 }
