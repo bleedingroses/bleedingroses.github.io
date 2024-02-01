@@ -1,0 +1,45 @@
+.background {
+    margin-top: 5%;
+    margin-left: 17%;
+    width: 830px;
+    height: 470px;
+    background-color: white;
+    opacity: .9;
+    overflow-y:scroll;            
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+    margin-bottom: 25px;
+}
+
+.container p {
+    color: indianred;
+    margin: 15px;
+    text-align: justify;
+}
+
+.container h2 {
+    color: brown;
+    text-align: center;
+}
+
+.container h4 {
+    text-align: center;
+}
+
+.container a {
+    text-align: center;
+    text-decoration: none;
+    color: brown;
+}
+
+#materi {
+    text-align: center;
+}

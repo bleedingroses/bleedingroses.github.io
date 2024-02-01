@@ -1,0 +1,30 @@
+.background {
+    margin-top: 5%;
+    margin-left: 17%;
+    width: 830px;
+    height: 470px;
+    background-color: white;
+    opacity: .9;
+    overflow-y:scroll;            
+}
+
+.container {
+    text-align: center;
+    color: brown;
+}
+
+.container p {
+    margin: 15px;
+    margin-bottom: 50px;
+}
+
+.container img {
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.container a {
+    text-align: center;
+    text-decoration: none;
+    color: brown;
+}

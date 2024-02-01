@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ridho's Site</title>
+    <link rel="stylesheet" href="css/form.css">
+    <style>
+        body {
+            background-image: url(img/nature.jpg);
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <h1>Membuat Form</h1>
+            <p id="materi">Ini adalah materi <b><i>RevoU: Software Engineer Fundamental Course</i></b> di hari kedua, yaitu membuat form di HTML.</p>
+            <h3>Contoh Form</h3>
+            <form action="" method="post">
+                <table class="center">
+                    <tr class="row">
+                        <td>
+                            <label for="nama">Nama :</label>
+                        </td>
+                        <td>
+                            <input type="text" id="nama">
+                        </td>
+                    </tr>
+                    <tr class="row">
+                        <td>
+                            <label for="">Jenis Kelamin :</label>
+                        </td>
+                        <td colspan="2">
+                            <input type="radio" id="pria" name="jkelamin" value="pria"><label for="pria">Pria</label>
+                            <input type="radio" id="wanita" name="jkelamin" value="wanita"><label for="wanita">Wanita</label>
+                        </td>
+                    </tr>
+                    <tr class="row">
+                        <td>
+                            <label for="">Hobi :</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="musik"><label for="musik">Musik</label>
+                            <input type="checkbox" id="game"><label for="game">Game</label>
+                            <input type="checkbox" id="sastra"><label for="sastra">Sastra</label>
+                        </td>
+                    </tr>
+                    <tr class="row">
+                        <td>
+                            <label for="pekerjaan">Pekerjaan :</label>
+                        </td>
+                        <td>
+                            <select id="pekerjaan" col-md>
+                                <option value="siswa">Siswa</option>
+                                <option value="mahasiswa">Mahasiswa</option>
+                                <option value="karyawan">Karyawan</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="row">
+                        <td>
+                            <label for="pesan">Pesan :</label>
+                        </td>
+                        <td>
+                            <textarea id="pesan"></textarea>
+                        </td>
+                    </tr>
+                    <tr class="row">
+                        <td colspan="2" id="reset">
+                            <button type="reset">Kirim</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <p id="link"><a href="link.html">Sebelumnya</a> | <a href="index.html">Utama</a></p>
+        </div>
+    </div>
+</body>
+</html>
